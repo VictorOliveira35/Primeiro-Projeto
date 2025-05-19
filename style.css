@@ -41,7 +41,8 @@ body * { /* aqui temos o seletor universal*/
       color: var(--text-color);
 }
 #container {
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
    /* border: 1px red solid; Boa prática, acrescentar borda para entender o que está 'acontecendo'*/
     /* margin: auto; existe uma regra no css que não aplica automaticamente na parte superior e inferior*/
     margin: 56px auto 0px;
